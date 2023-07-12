@@ -1,0 +1,20 @@
+<%- include("partials/Header") -%>
+<form action="/register" method="post">
+    <div class="container register col-4 mt-5">
+        <h1>Register</h1>
+        <div class="my-2">
+            <label for="exampleInputEmail1" class="form-label">Full Name</label>
+            <input type="text" class="form-control mb-1" name="name" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <label for="exampleInputEmail1" class="form-label">Phone Number</label>
+            <input type="number" class="form-control mb-1" name="number" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="email" class="form-control mb-1" name="email" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" name="password" id="exampleInputPassword1">
+          </div>
+          <button type="submit" class="btn btn-dark btn-lg px-4 mt-1">Register</button>
+          <p class="mt-2">Already a have a account <a href="/login">Login</a></p>
+        </form>
+    </div>
+    
+<%- include("partials/Footer") -%>

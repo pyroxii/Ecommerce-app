@@ -1,0 +1,59 @@
+body {
+  background-color: #dde6ed;
+}
+/* general css */
+a {
+  text-decoration: none;
+}
+.left-btn {
+  color: black;
+}
+.right-btn {
+  color: white;
+}
+img.logo-big {
+  width: 100px;
+}
+img.logo-small {
+  width: 30px;
+}
+
+/* main-page */
+.main-heading {
+  font-size: 3.5rem;
+}
+
+/* register page */
+.register h1 {
+  text-align: center;
+}
+
+/* login page */
+.login-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* home page */
+.home{
+    background-color: #AAABBF;
+}
+
+.container-left {
+  width: 250px;
+  height: 100vh;
+  background-color: #c7d2ff;
+}
+.container-left p{
+    /* border: 1px solid black; */
+    text-align: center;
+    background-color: beige;
+    font-size: 18px;
+}
+
+.hover-effect:hover {
+    background-color: #dcd7d7;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+  }

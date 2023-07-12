@@ -1,0 +1,19 @@
+<%- include("partials/Header") -%>
+<form action="/login" method="post">
+    <div class="container col-4 mt-5">
+        <h1>Login</h1>
+        <div class="my-2">
+          <label for="exampleInputEmail1" class="form-label">Email</label>
+          <input type="email" class="form-control mb-1" name="email" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" name="password" id="exampleInputPassword1">
+        </div>
+          <button type="submit" class="btn btn-dark btn-lg px-4 mt-1">Login</button>
+          <div class="login-bottom">
+            <p class="mt-2">Create a account <a href="/register">Register</a></p>
+            <p><a href="">Forgot Password</a></p>
+          </div>
+        </form>
+    </div>
+    
+<%- include("partials/Footer") -%>
